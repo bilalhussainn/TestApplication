@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.bilal.testapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/startService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:background="#000"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:id="@+id/stopService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/startIntentService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Intent Service"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/stopIntentService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Intent Service"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Intent Service"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/intentStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Intent Service"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
