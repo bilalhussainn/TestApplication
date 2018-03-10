@@ -18,6 +18,7 @@
         android:background="#000"
         android:textColor="#fff"
         />
+
     <TextView
         android:id="@+id/stopService"
         android:layout_width="wrap_content"

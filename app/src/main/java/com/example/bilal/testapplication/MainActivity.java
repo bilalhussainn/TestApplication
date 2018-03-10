@@ -11,10 +11,19 @@ import android.widget.TextView;
 import com.example.bilal.testapplication.service.MyIntentService;
 import com.example.bilal.testapplication.service.MyService;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class MainActivity extends AppCompatActivity {
 
-    TextView startService, stopService, startIntentService, stopIntentService,
-            statusTextView, intentStatusTextView;
+
+    @BindView(R.id.startService) TextView startService;
+    @BindView(R.id.stopService) TextView stopService;
+    @BindView(R.id.startIntentService) TextView startIntentService;
+    @BindView(R.id.stopIntentService) TextView stopIntentService;
+    @BindView(R.id.statusTextView) TextView statusTextView;
+    @BindView(R.id.intentStatusTextView) TextView intentStatusTextView;
+
 
     Intent lastStartedIntent;
     Intent lastIntentService;
@@ -25,13 +34,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+/*
         startService = (TextView) findViewById(R.id.startService);
         stopService = (TextView) findViewById(R.id.stopService);
         startIntentService = (TextView) findViewById(R.id.startIntentService);
         stopIntentService = (TextView) findViewById(R.id.stopIntentService);
         statusTextView = (TextView) findViewById(R.id.statusTextView);
-        intentStatusTextView = (TextView) findViewById(R.id.intentStatusTextView);
+        intentStatusTextView = (TextView) findViewById(R.id.intentStatusTextView);*/
+
+        ButterKnife.bind(this);
 
 
         startService.setOnClickListener(new View.OnClickListener() {
