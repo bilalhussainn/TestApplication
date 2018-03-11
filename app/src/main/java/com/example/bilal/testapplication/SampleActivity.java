@@ -28,6 +28,10 @@ public class SampleActivity extends AppCompatActivity {
         String b  ="test2";
 
         String branch2 = "test word";
+
+        String master = "master";
+
+
     }
 
 }
