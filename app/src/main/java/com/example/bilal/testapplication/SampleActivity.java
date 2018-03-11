@@ -29,6 +29,8 @@ public class SampleActivity extends AppCompatActivity {
 
         String branch2 = "test word";
         String branch1="";
+
+
     }
 
 }
