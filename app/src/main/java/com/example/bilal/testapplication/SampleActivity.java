@@ -15,9 +15,14 @@ public class SampleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sample);
 
-        textView.setText("Sample Activity");
+    }
 
-///
+
+
+    public void call(){
+
+        String a  ="test";
 
     }
+
 }
