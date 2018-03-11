@@ -15,6 +15,9 @@ public class SampleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sample);
 
+        textView.setText("Sample Activity");
+
+///
     }
 
 
@@ -22,7 +25,10 @@ public class SampleActivity extends AppCompatActivity {
     public void call(){
 
         String a  ="test";
+        String b  ="test2";
 
+        String branch2 = "test word";
+        String branch1="";
     }
 
 }
