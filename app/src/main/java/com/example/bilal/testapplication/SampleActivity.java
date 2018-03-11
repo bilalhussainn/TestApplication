@@ -26,6 +26,8 @@ public class SampleActivity extends AppCompatActivity {
 
         String a  ="test";
 
+        String b  ="test2";
+
     }
 
 }
