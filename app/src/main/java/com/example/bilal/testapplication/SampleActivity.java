@@ -25,9 +25,9 @@ public class SampleActivity extends AppCompatActivity {
     public void call(){
 
         String a  ="test";
-
         String b  ="test2";
 
+        String branch2 = "test word";
     }
 
 }
